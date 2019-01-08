@@ -6,7 +6,7 @@ $ mvn package -DskipTests && mvn spring-boot:run
 ```
 or
 ```
-mvn package -DskipTests && java -jar target/spring-boot-ctw-0.0.1-SNAPSHOT.jar
+$ mvn package -DskipTests && java -jar target/spring-boot-ctw-0.0.1-SNAPSHOT.jar
 ```
 
 # Does not work
@@ -17,11 +17,13 @@ Error:(18, 0) ajc: log cannot be resolved
 
 # Remarks
 - Code copied from https://github.com/dsyer/spring-boot-aspectj/tree/master/ctw
+
 - "Hack" applied from https://palesz.wordpress.com/2011/12/03/howto-maven-lombok-and-aspectj-together
-```xml
-<forceAjcCompile>true</forceAjcCompile>
-<sources/>
-<weaveDirectories>
-  <weaveDirectory>${project.build.directory}/classes</weaveDirectory>
-</weaveDirectories>
-```
+    ```xml
+    <forceAjcCompile>true</forceAjcCompile>
+    <sources/>
+    <weaveDirectories>
+      <weaveDirectory>${project.build.directory}/classes</weaveDirectory>
+    </weaveDirectories>
+    ```
+
