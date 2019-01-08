@@ -6,7 +6,7 @@ $ mvn package -DskipTests && mvn spring-boot:run
 ```
 or
 ```
-mvn package -DskipTests && java -jar target/spring-boot-ctw-0.0.1-SNAPSHOT.jar
+$ mvn package -DskipTests && java -jar target/spring-boot-ctw-0.0.1-SNAPSHOT.jar
 ```
 
 # Does not work
