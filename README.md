@@ -17,4 +17,11 @@ Error:(18, 0) ajc: log cannot be resolved
 
 # Remarks
 - Code copied from https://github.com/dsyer/spring-boot-aspectj/tree/master/ctw
-- "Hack" applied from https://palesz.wordpress.com/2011/12/03/howto-maven-lombok-and-aspectj-together/
+- "Hack" applied from https://palesz.wordpress.com/2011/12/03/howto-maven-lombok-and-aspectj-together
+```xml
+<forceAjcCompile>true</forceAjcCompile>
+<sources/>
+<weaveDirectories>
+  <weaveDirectory>${project.build.directory}/classes</weaveDirectory>
+</weaveDirectories>
+```
