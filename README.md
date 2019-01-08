@@ -14,3 +14,7 @@ Run the project from within IntelliJ
 ```bash
 Error:(18, 0) ajc: log cannot be resolved
 ```
+
+# Remarks
+- Code copied from https://github.com/dsyer/spring-boot-aspectj/tree/master/ctw
+- "Hack" applied from https://palesz.wordpress.com/2011/12/03/howto-maven-lombok-and-aspectj-together/
