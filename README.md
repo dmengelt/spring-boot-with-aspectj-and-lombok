@@ -26,4 +26,5 @@ Error:(18, 0) ajc: log cannot be resolved
       <weaveDirectory>${project.build.directory}/classes</weaveDirectory>
     </weaveDirectories>
     ```
+- Related issue: https://youtrack.jetbrains.com/issue/IDEA-184921
 
